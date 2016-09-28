@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=David+Libre:400,700|Dosis:400,700';
+body {
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+
+header {
+    height: 200vh;
+}
+
+nav {
+    width: 100%;
+    background-image: url(../images/nav-back.jpg);
+    background-color: rgba(43, 79, 153, .6);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+nav #logo {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+    background-image:url(../images/logo.jpeg);
+    background-size: 75px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav #name {
+    display: block;
+    text-align: center;
+    font-family: 'David Libre', sans-serif;
+    padding-top: 20px;
+}
+nav #name h3{
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+nav #nav-tabs ul {
+
+  text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav #nav-tabs ul li{
+  border-left: 1px solid white;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+nav #nav-tabs ul li:nth-child(1){
+  border-left: 0px;
+}
