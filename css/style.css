@@ -39,7 +39,7 @@ nav #logo {
 nav #name {
     display: block;
     text-align: center;
-    opacity: .8;
+    opacity: .95;
     font-family: 'Bitter', sans-serif;
     padding-top: 20px;
 }
