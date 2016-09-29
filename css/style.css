@@ -17,6 +17,7 @@ nav {
 }
 
 nav #logo {
+  z-index: 3;
     background-color: white;
     height: 100px;
     width: 100px;
